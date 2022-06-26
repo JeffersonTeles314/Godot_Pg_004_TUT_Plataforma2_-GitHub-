@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=2]
 
-[ext_resource path="res://Player.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/Player1/Run0.png" type="Texture" id=2]
 [ext_resource path="res://Sprites/Player1/Run1.png" type="Texture" id=3]
 [ext_resource path="res://Sprites/Player1/Run3.png" type="Texture" id=4]
@@ -20,11 +20,6 @@ animations = [ {
 "name": "Parado",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 6 ) ],
-"loop": true,
-"name": "Correndo",
-"speed": 12.0
-}, {
 "frames": [ ExtResource( 9 ), ExtResource( 8 ) ],
 "loop": false,
 "name": "Pulando",
@@ -34,6 +29,11 @@ animations = [ {
 "loop": false,
 "name": "Caindo",
 "speed": 2.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "Correndo",
+"speed": 12.0
 } ]
 
 [sub_resource type="CapsuleShape2D" id=1]

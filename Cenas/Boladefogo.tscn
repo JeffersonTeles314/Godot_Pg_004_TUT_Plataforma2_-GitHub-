@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Sprites/Capa head.png" type="Texture" id=1]
-[ext_resource path="res://Boladefogo.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/Boladefogo.gd" type="Script" id=2]
 
 [node name="Area2D" type="Area2D"]
 script = ExtResource( 2 )
